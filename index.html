@@ -24,8 +24,22 @@
 
     </header>
 
-    <main id="calendar-container">
-        <!-- Rendered via JS -->
+    <main class="dashboard-layout">
+        <aside class="sidebar-panel">
+            <div id="month-controls" class="month-controls">
+                <button id="prev-month-btn" class="nav-btn">&larr;</button>
+                <h2 id="current-month-title" class="month-title">Month Year</h2>
+                <button id="next-month-btn" class="nav-btn">&rarr;</button>
+            </div>
+            <div id="calendar-container">
+                <!-- Mini calendar rendered via JS -->
+            </div>
+        </aside>
+        <section class="details-panel" id="event-details-container">
+            <div class="empty-state">
+                <p>Select a date on the calendar to view event details.</p>
+            </div>
+        </section>
     </main>
 
 
