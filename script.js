@@ -150,8 +150,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         let activitiesHTML = event.activities.map(act => `
             <div class="activity-section" style="padding: 1rem; background: rgba(0,0,0,0.1); border-radius: 10px; border: 1px solid rgba(255,255,255,0.05); margin: 0 1.5rem 0.8rem 1.5rem;">
-                <div class="activity-type" style="margin-bottom: 0.5rem; font-weight: bold; letter-spacing: 3px; font-size: 0.85rem; text-align: center;">${act.type} Track</div>
-                <div class="activity-name" style="font-size: 1.15rem; font-weight: 700; margin-bottom: 0.5rem; color: #fff; text-align: center;">${act.name}</div>
+                <div class="activity-name" style="font-size: 1.15rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--accent-3); text-align: center;">${act.name}</div>
                 <div class="activity-details">
                     <p style="font-size: 0.95rem; line-height: 1.5; color: #e2e8f0; margin-bottom: 1rem;">${act.description}</p>
                     <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
