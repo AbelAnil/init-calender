@@ -63,7 +63,15 @@ const calendarData = [
     "academic_busy_dates": {
       "13": "#Staff Meeting",
       "22": "Onam Holidays",
-      "28": "SNG Jayanthi"
+      "23": "Onam Celebration",
+      "24": "Onam Celebration",
+      "25": "Onam Celebration",
+      "26": "Onam Celebration",
+      "27": "Onam Celebration",
+      "28": "Onam Celebration",
+      "29": "Onam Celebration",
+      "30": "Onam Celebration",
+      "31": "Onam Celebration"
     },
     "events": [
       {
@@ -258,8 +266,15 @@ const calendarData = [
       "3": "#CIE 2 (S1)",
       "4": "#Staff Meeting",
       "17": "Completion of all lab exams (s1)",
-      "23": "Christmas Cellebration & Vacation Starts",
-      "25": "Christmas"
+      "23": "Christmas Celebration",
+      "24": "Christmas Vacation",
+      "25": "Christmas",
+      "26": "Christmas Vacation",
+      "27": "Christmas Vacation",
+      "28": "Christmas Vacation",
+      "29": "Christmas Vacation",
+      "30": "Christmas Vacation",
+      "31": "Christmas Vacation"
     },
     "events": [
       {
@@ -301,7 +316,9 @@ const calendarData = [
   {
     "month": "January 2027",
     "academic_busy_dates": {
-      "4": "Reopening after Christmas\nVacation"
+      "1": "Christmas Vacation",
+      "2": "Christmas Vacation",
+      "3": "Christmas Vacation"
     },
     "events": [
       {
